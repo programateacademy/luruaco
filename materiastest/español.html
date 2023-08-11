@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="../styles/stylesmateriastest.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <form action="">
+      <fieldset class="options">
+        <legend>Radio</legend>
+        <ul>
+          <li>
+            <input
+              id="radio1"
+              name="radio"
+              type="radio"
+              class="radio"
+              checked="checked"
+            />
+            <label for="radio1">Option 1</label>
+          </li>
+          <li>
+            <input id="radio2" name="radio" type="radio" class="radio" />
+            <label for="radio2">Option 2</label>
+          </li>
+          <li>
+            <input id="radio3" name="radio" type="radio" class="radio" />
+            <label for="radio3">Option 3</label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset class="options">
+        <legend>Checkbox</legend>
+        <ul>
+          <li>
+            <input
+              id="checkbox1"
+              name="checkbox"
+              type="checkbox"
+              checked="checked"
+            />
+            <label for="checkbox1">Choice A</label>
+          </li>
+          <li>
+            <input id="checkbox2" name="checkbox" type="checkbox" />
+            <label for="checkbox2">Choice B</label>
+          </li>
+          <li>
+            <input id="checkbox3" name="checkbox" type="checkbox" />
+            <label for="checkbox3">Choice C</label>
+          </li>
+        </ul>
+      </fieldset>
+      <!--
+      <fieldset>
+        <legend>Fields</legend>
+        <ul>
+          <li>
+            <label for="">text</label>
+            <input type="text" />
+            <span class="error-msg">Error</span>
+          </li>
+          <li>
+            <label for="">email</label>
+            <input type="email" required />
+            <span class="error-msg">Error</span>
+          </li>
+          <li>
+            <label for="">number</label>
+            <input type="number" />
+            <span class="error-msg">Error</span>
+          </li>
+          <li>
+            <label for="">password</label>
+            <input type="password" placeholder="your password" />
+            <span class="error-msg">Error</span>
+          </li>
+        </ul>
+      </fieldset>
+    -->
+      <fieldset>
+        <legend>Select</legend>
+        <ul>
+          <li>
+            <select>
+              <optgroup label="Option Group 1">
+                <option>Option 1</option>
+                <option>Option 2</option>
+              </optgroup>
+              <optgroup>
+                <option>Option 3</option>
+              </optgroup>
+            </select>
+          </li>
+        </ul>
+      </fieldset>
+    </form>
+  </body>
+</html>
